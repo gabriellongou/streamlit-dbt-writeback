@@ -4,13 +4,7 @@ Welcome to the Streamlit dbt BigQuery application repository. This repository co
 
 ## Overview
 
-This application demonstrates an approach using Streamlit, an open-source Python framework. While it was initially designed for machine learning engineers and data scientists, it's becoming increasingly popular among data teams. This repo focuses on exploiting Streamlit's "writeback" capabilities, especially in the context of high computing needs.
-
-### Key Features
-
-- **Integration with BigQuery and dbt**: Leverages the analytical power of Google BigQuery and the efficiency of dbt for managing data workflows.
-- **Streamlit for Frontend**: Utilizes Streamlit for creating a dynamic and user-friendly interface.
-- **High-Performance Computing**: Suitable for applications requiring significant computing capacity between refreshes.
+This application demonstrates an approach using Streamlit, an open-source Python framework. This repo focuses on exploiting Streamlit's "writeback" capabilities, especially in the context of high computing needs.
 
 ## Prerequisites
 
