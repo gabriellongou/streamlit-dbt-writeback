@@ -1,0 +1,8 @@
+sources:
+  - name: gabriel
+    database: molten-plate-403016
+    schema: gabriel
+    tables:
+      - name: capacity_parameters
+      - name: load_signal_factory_1
+      - name: load_signal_factory_2

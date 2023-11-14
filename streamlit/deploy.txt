@@ -1,0 +1,2 @@
+gcloud builds submit --tag gcr.io/<dbt_project>/streamlitapp .
+gcloud run deploy streamlitapp --image gcr.io/<dbt_project>/streamlitapp --region us-central1 --platform managed --allow-unauthenticated --quiet

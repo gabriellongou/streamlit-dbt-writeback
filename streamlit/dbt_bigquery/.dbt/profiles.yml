@@ -1,0 +1,14 @@
+dbt_bigquery:
+  outputs:
+    dev:
+      dataset: gabriel
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      location: US
+      method: service-account
+      priority: interactive
+      project: molten-plate-403016
+      threads: 4
+      type: bigquery
+      keyfile: /app/key.json
+  target: dev
