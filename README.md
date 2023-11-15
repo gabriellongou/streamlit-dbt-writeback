@@ -11,7 +11,7 @@ This application demonstrates an approach using Streamlit, an open-source Python
 Before diving into this application, ensure that:
 
 - You have an established technical stack (BigQuery, dbt, etc.).
-- You aim to build a simulation application for a specific use case, intended for a limited number of users (less than 10 simultaneously).
+- You aim to build a simulation application for a specific use case, intended for not a too large amount of users.
 - Your use case necessitates high computing power for each refresh, justifying the use of BigQuery (OLAP) as the execution backend.
 
 ## Architecture
